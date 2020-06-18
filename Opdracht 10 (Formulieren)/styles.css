@@ -1,0 +1,92 @@
+body {
+    background-color: rgba(129, 184, 169, 0.747);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.titel-indeling { 
+    color: rgb(72, 77, 75);
+    border: 3px solid black; 
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.titel-contact-indeling { 
+    color: rgb(72, 77, 75);
+    border: 3px solid rgb(197, 60, 60); 
+    width: 450px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.link-indeling {
+    position: absolute;
+    border: 2px dotted black;
+    padding: 3px 10px;
+    bottom: 55px;
+    left: 48px;
+    bottom: 48px;
+}
+
+.lijn-indeling {
+    position: absolute;
+    width: 95%;
+    bottom: 35px;
+    left: 43px;
+}
+
+.list-indeling {
+    position: absolute;
+    border: 2px dashed black;
+    width: 150px;
+    color: brown;
+    background-color: rgb(175, 196, 154);
+    left: 843px;
+    bottom: 380px;
+    padding: 15px 50px 15px 30px
+}
+
+.foto-indeling { 
+    position: absolute;
+    left: 835px;
+    top: 100px;
+    width: 250px;
+}
+
+.nav-indeling a {
+    float: left;
+    display: block;
+    padding: 10px 20px;
+    background-color: #333;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.list-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Scherm kleiner maken zorgt voor: andere achtergrond, andere tekstkleur in de list en andere lettergrote */
+@media (max-width: 768px) {
+    body { 
+        background-color: rgb(209, 130, 130);
+    }
+
+@media (max-width: 768px) { 
+    li { 
+        color: blue;
+    }
+}   
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 100px;
+    }
+}
+}
+
+
